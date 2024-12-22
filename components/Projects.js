@@ -15,7 +15,7 @@ const Projects = () => {
       className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
       id="projects"
     >
-      <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+      <div className="max-w-screen-xl  sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="scrollwraper flex-col w-full">
           <ScrollAnimationWrapper>
             <motion.h3
@@ -96,7 +96,7 @@ const Projects = () => {
                   />
                 </div>
                 <p className="text-lg text-[#343434]-500 font-medium text-left capitalize my-2 sm:my-7 max-w-md">
-                  Data Anonymization With Regex in JAVA
+                  Data Anonymization With Regex 
                 </p>
                 <ul className="flex flex-col list-inside pl-4 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-2">

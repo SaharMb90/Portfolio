@@ -14,16 +14,16 @@ const ContactMe = () => {
       className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
       id="contactme"
     >
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12"> 
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 y-8 my-12 ml-4 sm:ml-8"> 
         <ScrollAnimationWrapper>
-          <motion.div className="flex flex-col items-start justify-center ml-auto w-full mt-20" variants={scrollAnimation}>
+          <motion.div className="flex flex-col items-start justify-center w-full mt-20" variants={scrollAnimation}>
             <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
            Contact Me
             </h3>
             <p className="my-2 text-black-500">
             
             </p>
-            <div className="text-black-500 text-bold self-start list-inside ml-8 ">
+            <div className="text-black-500 text-bold self-start list-inside ">
              
                
                   <h1>Email: saharmirzabaki@gmail.com</h1>
