@@ -20,7 +20,7 @@ const Skills = () => {
   return (
     <div
     className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
-    id="contactme"
+    id="skills"
   >
     <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8  y-8 my-12"> 
         <ScrollAnimationWrapper className="flex w-full justify-end">
@@ -42,7 +42,7 @@ const Skills = () => {
             <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
             My Skills
             </h3>
-            <div className="text-black-500 text-bold self-start list-inside ml-4 sm:ml-8">
+            <div className="text-black-500 text-bold self-start list-inside ml-6 sm:ml-8 ">
             <ul className="text-black-500 self-start list-inside">
               {skills.map((skills, index) => (
                 <motion.li

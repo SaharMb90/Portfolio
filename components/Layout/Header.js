@@ -36,7 +36,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 a")
               }
             >
-              About
+              About Me
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -119,7 +119,7 @@ const Header = () => {
               }
             >
               <img src="/about.png" className="max-w-8 max-h-8" />
-              About
+              About Me
             </LinkScroll>
             <LinkScroll
               activeClass="active"
